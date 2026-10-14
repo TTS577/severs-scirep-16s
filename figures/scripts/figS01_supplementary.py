@@ -7,7 +7,7 @@ from severs_scirep_16s.config import FIGURES_OUTPUT_DIR, PROCESSED_DATA_DIR, RAW
 from severs_scirep_16s.plotting import save_figure, set_plot_style
 
 FIGURE_NAME = "figS01_hac_vs_sup_reads"
-INPUT_FILE = RAW_DATA_DIR / "20250714_mastersheet_HAC_SUP.csv"
+INPUT_FILE = RAW_DATA_DIR / "INPUTS1.csv"
 OUTLIERS_CSV = PROCESSED_DATA_DIR / "figS01_read_count_outliers.csv"
 
 

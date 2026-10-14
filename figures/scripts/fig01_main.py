@@ -1,9 +1,10 @@
 import matplotlib.pyplot as plt
 
-from severs_scirep_16s.config import FIGURES_OUTPUT_DIR
+from severs_scirep_16s.config import FIGURES_OUTPUT_DIR, RAW_DATA_DIR
 from severs_scirep_16s.plotting import save_figure, set_plot_style
 
 FIGURE_NAME = "fig01_sample_sources"
+INPUT_FILE = RAW_DATA_DIR / "INPUT1.csv"
 
 # Number of clinical samples per specimen type
 labels = ["Tissue", "Cerebrospinal fluid", "Abscess/Pus", "Pleural fluid", "Aspirate", "Joint fluid", "Other"]
@@ -22,7 +23,6 @@ def main() -> None:
     colors = plt.cm.Pastel1.colors[: len(sorted_sizes)]
 
     fig, ax = plt.subplots(figsize=(8, 8))
-    # Start at 12 o'clock, going clockwise
     wedges, texts, autotexts = ax.pie(
         sorted_sizes, labels=None, colors=colors, autopct="%1.1f%%", startangle=90, counterclock=False
     )

@@ -5,7 +5,7 @@ import pandas as pd
 from severs_scirep_16s.config import FIGURES_OUTPUT_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR
 from severs_scirep_16s.plotting import save_figure, set_plot_style
 
-INPUT_CSV = RAW_DATA_DIR / "INPUT.csv"
+INPUT_CSV = RAW_DATA_DIR / "INPUT5.csv"
 OUTLIERS_CSV = PROCESSED_DATA_DIR / "bland_altman_outliers.csv"
 FIGURE_NAME = "fig05_bland_altman_taxon_level"
 

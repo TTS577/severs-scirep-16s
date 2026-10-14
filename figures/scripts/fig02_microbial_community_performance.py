@@ -7,7 +7,7 @@ from severs_scirep_16s.config import FIGURES_OUTPUT_DIR, RAW_DATA_DIR
 from severs_scirep_16s.plotting import save_figure, set_plot_style
 
 FIGURE_NAME = "fig02_microbial_community_performance"
-INPUT_FILE = RAW_DATA_DIR / "input.csv"
+INPUT_FILE = RAW_DATA_DIR / "INPUT2.csv"
 
 
 def main() -> None:

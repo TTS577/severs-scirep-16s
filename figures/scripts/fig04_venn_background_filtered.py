@@ -2,10 +2,11 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 from matplotlib_venn import venn2, venn2_unweighted
 
-from severs_scirep_16s.config import FIGURES_OUTPUT_DIR
+from severs_scirep_16s.config import FIGURES_OUTPUT_DIR, RAW_DATA_DIR
 from severs_scirep_16s.plotting import save_figure, set_plot_style
 
 FIGURE_NAME = "fig04_venn_background_filtered"
+INPUT_FILE = RAW_DATA_DIR / "INPUT4.csv"
 
 # --- Size settings -----------------------------------------------------------
 WEIGHTED = True          # True: circle areas proportional to counts; False: equal circles
