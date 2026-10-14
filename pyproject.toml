@@ -1,0 +1,18 @@
+[project]
+name = "severs-scirep-16s"
+version = "0.1.0"
+description = "Figure-generation scripts for the Severs et al. Scientific Reports 16S paper"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "scipy",
+  "scikit-learn",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

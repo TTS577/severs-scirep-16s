@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/schema.json
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated Scientific Reports manuscript."
+title: "severs-scirep-16s"
+authors:
+  - family-names: Severs
+    given-names: "TODO"
+version: "0.1.0"
+date-released: "2026-10-14"
+license: MIT
+repository-code: "https://github.com/TTS577/severs-scirep-16s"

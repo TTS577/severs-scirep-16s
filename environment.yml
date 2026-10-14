@@ -1,0 +1,15 @@
+name: severs-scirep-16s
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - jupyter
+  - pip
+  - pip:
+      - -e .
