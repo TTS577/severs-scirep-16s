@@ -6,7 +6,7 @@ Figure-generation code for:
 >
 > \*Equal contribution.
 
-This repository contains the code used to generate the figures and supplementary figure of the manuscript. Clinical sample data are not included in this repository. Synthetic mock data are available from PRJEB124641, which is currently under embargo and will be released upon publication.
+This repository contains the code used to generate the figures and supplementary figure of the manuscript, which is currently under review. Clinical sample data are not included in this repository. Synthetic mock data are available from PRJEB124641, which is currently under embargo and will be released upon publication.
 
 ## Figures
 
