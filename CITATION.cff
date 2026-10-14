@@ -4,7 +4,39 @@ message: "If you use this repository, please cite the associated Scientific Repo
 title: "severs-scirep-16s"
 authors:
   - family-names: Severs
-    given-names: "TODO"
+    given-names: TT
+  - family-names: Gebbink
+    given-names: AJ
+  - family-names: Gard
+    given-names: L
+  - family-names: Rossen
+    given-names: JWA
+  - family-names: van Alphen
+    given-names: LB
+  - family-names: Koeck
+    given-names: RM
+  - family-names: Smit
+    given-names: PW
+  - family-names: Yahiaoui
+    given-names: RY
+  - family-names: Matamoros
+    given-names: SPF
+  - family-names: van den Bosch
+    given-names: B
+  - family-names: Koopman
+    given-names: P
+  - family-names: Cartuyvels
+    given-names: R
+  - family-names: Dingemans
+    given-names: J
+  - family-names: Ivens
+    given-names: MJR
+  - family-names: Pas
+    given-names: SD
+    comment: "equal contribution"
+  - family-names: Boers
+    given-names: SA
+    comment: "equal contribution"
 version: "0.1.0"
 date-released: "2026-10-14"
 license: MIT
