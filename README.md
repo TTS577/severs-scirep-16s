@@ -6,7 +6,7 @@ Figure-generation code for:
 >
 > \*Equal contribution.
 
-This repository contains the scripts used to generate the figures of the manuscript.
+This repository contains the code used to generate the figures and supplementary figure of the manuscript. Clinical sample data are not included in this repository. Synthetic mock data are available from PRJEB124641, which is currently under embargo and will be released upon publication.
 
 ## Figures
 
@@ -23,7 +23,7 @@ This repository contains the scripts used to generate the figures of the manuscr
 
 ```text
 .
-├── data/                 # input data (raw/ is not tracked); see data/README.md
+├── data/                 # input data notes; raw/ is not tracked
 ├── figures/
 │   ├── scripts/          # one script per figure
 │   └── output/           # generated PDF/PNG (not tracked)
@@ -68,7 +68,7 @@ Figures are written to `figures/output/` as PDF and PNG.
 
 ## Data availability
 
-TODO: add the repository / DOI where the data are deposited.
+Clinical sample data are not included in this repository. Synthetic mock data are available from PRJEB124641, which is currently under embargo and will be released upon publication.
 
 ## Citation
 
